@@ -104,8 +104,38 @@
         margin-left: 32px;
         margin-bottom: 32px;
       }
-      .need-support{
-          background-image: url("./assets/handshake.jpg");
+      .need-support {
+        background-image: url("./assets/handshake.jpg");
+       background-repeat: no-repeat;
+       background-position: center;
+      }
+      .need-support-div,
+      .need-support-form {
+        margin-right: 198px;
+        margin-left: 198px;
+      }
+      .need-support-div .heading {
+        text-align: center;
+      }
+      .need-support-div .des {
+        display: flex;
+        text-align: center;
+      }
+      .need-support-form {
+        display: flex;
+        justify-content: space-between;
+      }
+      #form {
+        width: 548px;
+        height: 57px;
+        border-radius: 8px;
+      }
+      ::placeholder {
+        font-size: 16px;
+        padding-left: 215px;
+        padding-left: 20px;
+        padding-bottom: 19px;
+        padding-top: 19px;
       }
     </style>
   </head>
@@ -123,6 +153,18 @@
         </p>
         <button class="btn">Contact with me</button>
       </div>
+      <section>
+        <div class="intro">
+          <p class="cap-font font">
+            "In the near future, I hope to become a Developer."
+          </p>
+          <p class="text font">
+            Currently, I am learning html. After next 2 or 3 month I have fully
+            learn CSS, JavaScript, Bootstrap etc.
+          </p>
+          <button class="btn">Contact with me</button>
+        </div>
+      </section>
     </header>
     <main class="sbg font">
       <section>
@@ -298,17 +340,18 @@
       </section>
       <section class="need-support font">
         <div class="need-support-div">
-          <p class="headin">I need Support</p>
+          <p class="heading">I need Support</p>
           <p class="des">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
+            Lorem Ipsum is simply dummy text of the printing and typesetting
             industry.
           </p>
         </div>
-        <div class="form">
+        <div class="need-support-form font">
           <input
+            class="font"
             type="text"
             name=""
-            id=""
+            id="form"
             placeholder="Suggest me any feedback for me"
           /><button class="btn">Submit</button>
         </div>
