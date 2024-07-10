@@ -1,11 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    Testing
-</body>
+    <style>
+      * {
+        max-width: 100%;
+      }
+      .azeret-mono {
+        font-family: "Azeret Mono", monospace;
+        font-optical-sizing: auto;
+        font-weight: normal;
+        font-style: normal;
+      }
+      header {
+        background-image: url(/assets/Hero-bg.png);
+        text-align: center;
+      }
+      .header-des {
+        margin-left: 221px;
+        margin-right: 221px;
+        margin-top: 21px;
+        margin-bottom: 45px;
+      }
+      .header-img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      }
+      .briefing {
+        font-weight: 800;
+        font-size: 48px;
+        text-align: center;
+      }
+      .briefing-about-me {
+        color: #0d1321;
+        font-size: 16px;
+        font-weight: normal;
+      }
+      .h-btn {
+        background-color: #0d1321;
+        color: #ffffff;
+        padding: 21px;
+        font-weight: 600;
+        font-size: 20px;
+        border-radius: 8px;
+        border: none;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .why-web-development {
+        margin-left: 292px;
+        margin-right: 296px;
+        padding-top: 144px;
+        text-align: center;
+      }
+      .headline {
+        color: #0d1321;
+        font-weight: 800;
+        font-size: 32px;
+      }
+      .change-the-world {
+        display: flex;
+        justify-content: space-evenly;
+      }
+      .change-the-world-des{
+        max-width: 400px;
+        display: flex;
+      }
+      #h1 {
+        color: #0d1321;
+        font-style: 700;
+        font-size: 24px;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-des">
+        <img class="header-img" src="/assets/Group.png" alt="" />
+        <p class="briefing azeret-mono">
+          "In the near future, I hope to become a Developer."
+        </p>
+        <p class="breifing-about-me azeret-mono">
+          Currently, I am learning html. After next 2 or 3 month I have fully
+          learn CSS, JavaScript, Bootstrap etc.
+        </p>
+        <p class="h-des"></p>
+        <button class="h-btn azeret-mono">Contact with me</button>
+      </div>
+    </header>
+    <main>
+      <div class="why-web-development">
+        <div>
+          <p class="headline azeret-mono">Why Web Development??</p>
+          <p class="why-web-development-answer azeret-mono">
+            I want a creative career path may enjoy web development. I can use
+            my creativity skills to design layouts for pages that are easy and
+            enjoyable to read. I want to use coding to produce unique effects
+            for websites
+          </p>
+        </div>
+        <div class="change-the-world">
+          <div class="change-the-world-des azeret-mono">
+            <p id="h1">I will Do Coding and Change The World</p>
+            <p id="d1"></p>
+          </div>
+          <img src="/assets/Layer_1.png" alt="" />
+        </div>
+      </div>
+    </main>
+  </body>
 </html>
