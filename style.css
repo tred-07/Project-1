@@ -119,6 +119,7 @@ iframe {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  border-radius: 16px;
 }
 
 .need-support-div {
@@ -196,4 +197,18 @@ p .des {
 }
 .github {
   padding-right: 24px;
+}
+.css {
+  background-color: #f0f2f7;
+  border-radius: 16px;
+  padding: 40px;
+}
+.html {
+  background-color:#f4ebe9;
+  border-radius: 16px;
+  padding: 40px;
+}
+.js {
+  border-radius: 16px;
+  padding: 40px;
 }
