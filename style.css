@@ -15,9 +15,9 @@ header {
 }
 
 .intro {
-    margin-right: 221px;
+    /* margin-right: 221px;
     margin-left: 221px;
-    margin-bottom: 45px;
+    margin-bottom: 45px; */
 }
 
 main {
@@ -33,7 +33,7 @@ section {
     margin-bottom: 64px;
     margin-top: 64px;
     /* background-color: aqua; */
-    border: 5px solid black;
+    /* border: 5px solid black; */
     width: 1140px;
 }
 
@@ -129,6 +129,7 @@ iframe {
     margin-right: 228px;
     margin-left: 228px;
     margin-bottom: 64px;
+    padding-bottom: 64px;
     text-align: center;
 }
 
@@ -154,7 +155,7 @@ p .des {
 
 .need-support-form {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 #form {
     width: 548px;
@@ -176,4 +177,22 @@ p .des {
     background-color: #ffffff;
     color: #0d1321;
     border-radius: 8px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+.cpy{
+    font-size: 20px;
+    font-weight: 700;
+    color: #0D1321;
+}
+.contact{
+    display: flex;
+}
+.fb{
+    padding-right: 24px;
+}
+.github{
+    padding-right: 24px;
 }
