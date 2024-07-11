@@ -131,7 +131,7 @@ iframe {
 
 .need-support {
   background-image: linear-gradient(
-      to left,
+      to top,
       rgba(231, 232, 238, 0.52),
       rgba(9, 9, 9, 0.73)
     ),
