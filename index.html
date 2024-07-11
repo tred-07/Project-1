@@ -4,140 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <style>
-      .font {
-        font-family: "Azeret Mono", monospace;
-        font-optical-sizing: auto;
-        font-weight: normal;
-        font-style: normal;
-      }
-
-      .sbg {
-        background-color: transparent;
-      }
-
-      header {
-        background-image: url("./assets/Hero-bg.png");
-        text-align: center;
-      }
-      .intro {
-        margin-right: 221px;
-        margin-left: 221px;
-        margin-bottom: 45px;
-      }
-      main {
-        /* text-align: center; */
-        /* margin-left: 150px;
-        margin-right: 150px; */
-      }
-
-      section {
-        margin-right: auto;
-        margin-left: auto;
-        color: black;
-        /* background-color: aqua; */
-        border: 5px solid black;
-        width: 1140px;
-      }
-      #caption {
-        text-align: center;
-      }
-      #id1 {
-        display: block;
-        font-weight: 700;
-        font-size: 32px;
-        color: #0d1321;
-      }
-      .text {
-        color: #0d1321;
-        opacity: 70%;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 26px;
-      }
-      .cap-font {
-        font-weight: 800;
-        font-size: 48px;
-        color: #0d1321;
-      }
-      #change-the-world {
-        display: flex;
-        margin: 48px;
-        justify-content: space-between;
-      }
-      #in-img-1 {
-        margin-left: 98px;
-        height: 274;
-        width: 240;
-      }
-      .des {
-        width: 477px;
-      }
-      .brief {
-        color: #0d1321;
-        line-height: 36px;
-        font-size: 24px;
-        font-weight: bold;
-      }
-      .btn {
-        background: #0d1321;
-        color: #ffffff;
-        padding: 24px;
-        font-size: 20px;
-        border-radius: 8px;
-        font-weight: 600;
-        border: none;
-        margin-bottom: 45px;
-      }
-      .learn-more {
-        font-size: 16px;
-        font-weight: bold;
-        color: #0d1321;
-      }
-      iframe {
-        height: 550px;
-        width: 1076px;
-        border-radius: 16px;
-        border: none;
-        margin-top: 80px;
-        margin-right: 32px;
-        margin-left: 32px;
-        margin-bottom: 32px;
-      }
-      .need-support {
-        background-image: url("./assets/handshake.jpg");
-       background-repeat: no-repeat;
-       background-position: center;
-      }
-      .need-support-div,
-      .need-support-form {
-        margin-right: 198px;
-        margin-left: 198px;
-      }
-      .need-support-div .heading {
-        text-align: center;
-      }
-      .need-support-div .des {
-        display: flex;
-        text-align: center;
-      }
-      .need-support-form {
-        display: flex;
-        justify-content: space-between;
-      }
-      #form {
-        width: 548px;
-        height: 57px;
-        border-radius: 8px;
-      }
-      ::placeholder {
-        font-size: 16px;
-        padding-left: 215px;
-        padding-left: 20px;
-        padding-bottom: 19px;
-        padding-top: 19px;
-      }
-    </style>
+    <link rel="stylesheet" href="style.css">
   </head>
 
   <body>
@@ -341,9 +208,16 @@
       <section class="need-support font">
         <div class="need-support-div">
           <p class="heading">I need Support</p>
-          <p class="des">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry.
+        </div>
+        <div
+          class="need-support-div-des"
+          style="display: flex; margin-left: 197px; margin-right: 197px"
+        >
+          <p class="text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nulla
+            expedita explicabo, adipisci enim suscipit soluta voluptas,
+            blanditiis maxime distinctio ex placeat cumque, quod quisquam nobis
+            commodi officia consequuntur error.
           </p>
         </div>
         <div class="need-support-form font">
@@ -353,7 +227,7 @@
             name=""
             id="form"
             placeholder="Suggest me any feedback for me"
-          /><button class="btn">Submit</button>
+          /><button class="submit">Submit</button>
         </div>
       </section>
     </main>
